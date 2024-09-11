@@ -8,13 +8,7 @@ import numpy as np
 import math
 
 
-def help():
-  print("HELLO CRYPTOGRAPHERS!!!")
-  print("KSM-1 IS THE KAUMODAKI STANDARD MODULE 1 ")
-  print("KSM-1 IS A MODULE HOUSING A LOT OF CRYPTO ALGOS. WHICH YOU CAN USE!")
-  print("the algos available:-")
-  print("1. rail_fence_enc(plain,r):-")
-  
+
 def rail_fence_enc(plain,r):
   x=len(plain)
   if(x%2!=0):
